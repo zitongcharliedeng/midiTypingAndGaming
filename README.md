@@ -41,3 +41,4 @@ https://www.youtube.com/watch?v=9ShQVPK3LwM&lc=UgynCBy8Uk4xQ3dXyAV4AaABAg
 
 - Make all this happen from one click (except from a provided config file for my preferred keyboard layout and stuff)
 - - So i can plug in my ULTRAkeyboard into any (Windows?) system and within seconds, use it as THE ULTRAkeyboard.
+- Make a Mouse Macro to toggle between Midi and KeyboardGaming mode, since you don't have access to the "keyboard" in Midi mode if you are entirely replacing your typing keyboard like me
