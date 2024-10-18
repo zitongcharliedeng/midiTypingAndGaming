@@ -32,7 +32,7 @@ https://www.youtube.com/watch?v=9ShQVPK3LwM&lc=UgynCBy8Uk4xQ3dXyAV4AaABAg
 
 My Linnstrument Preset when Using as Typing Keyboard (and recording its inputs):
 1.) RESET TO DEFAULT FIRST
-2.) PERSPLIT: Channel Per Note (otherwise 2 notes share the same id used in midi2joy, which is bad), Midi CHannel 1, Bend+96(holddown24andslideup), X OFF, Y OFF
+2.) PERSPLIT: Channel Per ROW (otherwise 2 notes overlapped in +5 default semitones will share the same id used in midi2joy, which is bad), Midi CHannel 1, Bend+96(holddown24andslideup), X OFF, Y OFF
 3.) Press preset and Save as a preset so you can switch to and fro.
 ---
 > From the Linnstrument manual:
