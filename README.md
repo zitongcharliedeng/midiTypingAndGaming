@@ -13,6 +13,8 @@ Thus this step by step guide will use a Linnstrument as the Midi input example b
 
 ## Requirements
 I have only done this on Windows, beware.
+May work for other OSs, for Macs, consider forking: https://github.com/gbevin/linnstrument-control
+https://www.youtube.com/watch?v=kl--Dp11fPM
 
 # The Guide
 
