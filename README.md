@@ -7,7 +7,7 @@ I have only made simple scripts to make the binding process faster, as well as s
 This is essentially just https://forum.il2sturmovik.com/topic/76764-midi-device-as-game-controller-control-layout-switching-on-the-fly/, but in my own words so my stupid self can understand it quickly in the future.
 
 ## Backstory
-I absolutely adore my Linnstrument and hate the out of date, skewed qwerty layouts. I've managed to get my Linnstrument to become my main typing keyboard now with this method and having an all in one keyboard (pun intended) feels so nice. The pressure sensors even match the skill ceiling my WootingHE keyboard provides and more!  Not even considered how to use the vertical and horizontal sliding inputs.
+I absolutely adore my Linnstrument and hate the out of date, skewed qwerty layouts. I've managed to get my Linnstrument to become my main typing keyboard now with this method and having an all in one keyboard (pun intended) feels so nice. The pressure sensors even match the skill ceiling my WootingHE keyboard provides and more!  Not even considered how to use the vertical and horizontal sliding inputs. Now I can just carry my ULTRA keyboard with me where ever I go.
 
 Thus this step by step guide will use a Linnstrument as the Midi input example but any other Midi controller should, potentially, be much easier since they don't have all the confounding settings a Linnstrument can have.
 
@@ -31,3 +31,11 @@ https://www.youtube.com/watch?v=9ShQVPK3LwM&lc=UgynCBy8Uk4xQ3dXyAV4AaABAg
 - See the repo folder ABC and download, then input... then run... Y
 - 
 ## Use joystickGremlin to convert vJoy controller to keyboard keys OR better joystick binds/ configs (e.g. alter sensitivity of joysticks, activations points... such a good software that gremlin...)
+- Ensure that in the Settings tab (NOT THE OPTIONS TAB), next to all your Joy input and vJoy input devices, **you enable your vJoy #X to be used as an input**!!!
+- It is off by default since Gremlin uses vJoy as the output from the altered Joy inputs (Joy meaning like regular game controllers, Joystick you get me? vJoy is a virtual Joystick made by vJoy).
+
+- Pro tip, make sure Gremlin isn't activated and go to the vJoy device tab, click the Midi button you want to bind (assuming midi2joy is still running in the background) and although it won't auto scroll in the left window, the binding in the right window will be for the key you just pressed. You can manually do this for each key and assign the new binds or use my script with GUI:
+# Future Plans
+
+- Make all this happen from one click (except from a provided config file for my preferred keyboard layout and stuff)
+- - So i can plug in my ULTRAkeyboard into any (Windows?) system and within seconds, use it as THE ULTRAkeyboard.
