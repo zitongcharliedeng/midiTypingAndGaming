@@ -28,7 +28,25 @@ https://www.youtube.com/watch?v=9ShQVPK3LwM&lc=UgynCBy8Uk4xQ3dXyAV4AaABAg
 
 - Linnstrument people, for simplicities' sake make sure you turn off pitch and timbre bending otherwise the midi inputs will be less consistent and hard to read. Also set midi channel to 1 ( i have tried using 16 and for some reason the inputs printed on channel 16 are much harder to decipher, for channel 1 it is always beginning with 160...) MAKE SURE SPLIT IS TURNED OFF, basically make sure the midi inputs are as little tampered and as simple as possible, you can make a preset for this.
 - The pressure sensor can be left on as it doesn't effect the input IDs, this also means you can bind Linnstrument notes to axis inputs (analog input), you basically have a free Wooting200HE (or 128HE)!!! make sure to push the keys dead center when testing for input ids
-- - These settings ( Linnstrument on +4 default tuning, midi chanenel 1 , disabled split, bend and timbre, one chan midi mode....) should yield you midi inputs that follow a pattern and can be predicted, there for we dont need to measure every single input id manually and instead we can use my python script:
+- - These settings ( Linnstrument on +5 default tuning, midi chanenel 1 , disabled split, bend and timbre, one chan midi mode.... no overlap) should yield you midi inputs that follow a pattern and can be predicted, there for we dont need to measure every single input id manually and instead we can use my python script:
+
+My Linnstrument Preset when Using as Typing Keyboard (and recording its inputs):
+1.) RESET TO DEFAULT FIRST
+2.) PERSPLIT: Channel Per Note (otherwise 2 notes share the same id used in midi2joy, which is bad), Midi CHannel 1, Bend+96(holddown24andslideup), X OFF, Y OFF
+3.) Press preset and Save as a preset so you can switch to and fro.
+---
+> From the Linnstrument manual:
+At the right side of the Preset screen are 4 blue-lit note pads indicating 4 "All Settings" memories. Each of these 4 memories holds a snapshot of all Per-Split Settings, Octave/Transpose settings and Global Settings (Note that the Preset and Volume screen settings are not included because the intent is to instantly change all of LinnStrument’s settings but not the preset and volume of external MIDI sound generators).
+
+To save the current LinnStrument settings to one of these 4 memories, hold one of the 4 blue-lit note pads for 2 seconds or more.
+
+To recall the saved settings, briefly tap one of these 4 buttons.
+Cheers!
+
+
+---
+
+
 
 - Manually writing up the bindings in the midi2vjoy config file is the slowest part, so I made a python script to do it for me:
 - See the repo folder ABC and download, then input... then run... Y
