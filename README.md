@@ -26,7 +26,7 @@ https://www.youtube.com/watch?v=9ShQVPK3LwM&lc=UgynCBy8Uk4xQ3dXyAV4AaABAg
 - If it still doesn't work, try search for other forks of midi2vjoy which might suit your use-case better
 - Also be open to customizing the python code to debug your controller e.g. if a button is acting like an axis. 
 
-- Linnstrument people, for simplicities' sake make sure you turn off pitch and timbre bending otherwise the midi inputs will be less consistent and hard to read. Also set midi channel to 1 ( i have tried using 16 and for some reason the inputs printed on channel 16 are much harder to decipher, for channel 1 it is always beginning with 160...)
+- Linnstrument people, for simplicities' sake make sure you turn off pitch and timbre bending otherwise the midi inputs will be less consistent and hard to read. Also set midi channel to 1 ( i have tried using 16 and for some reason the inputs printed on channel 16 are much harder to decipher, for channel 1 it is always beginning with 160...) MAKE SURE SPLIT IS TURNED OFF, basically make sure the midi inputs are as little tampered and as simple as possible, you can make a preset for this.
 - The pressure sensor can be left on as it doesn't effect the input IDs, this also means you can bind Linnstrument notes to axis inputs (analog input), you basically have a free Wooting200HE (or 128HE)!!!
 
 - Manually writing up the bindings in the midi2vjoy config file is the slowest part, so I made a python script to do it for me:
